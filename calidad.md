@@ -50,3 +50,57 @@ Principios SOLID, GRASP, asignacnion de responsabilidades
 - patrones de diseño / programacion (princios del software para asignar responsabilidades) : patuas qeu te ayudan a proponer el analisis del sistema.
 
 - evitar los antipatrones de diseño / programacion.
+
+#### tiposde reusabilidad
+- **reusabilidad de codigo :** Bibliotecas, API, clases controladoras...
+- **reusabilidad de diseño :** patrones de comportamiento de softaware propuestas y testeadas.
+- **reusabilidad de codigo y de diseño, Frameworks :** decisiones arquitectonicas importantes. En este caso se produce una _inversion de control_, El framework llama a nuestra aplicacion.
+
+
+#### metodologias de diseño de software
+- **Poblemas que se solucian :** Falta de involucracion del usuario, requerimienetos y especificaciones claras, cambios de requerimientos y especificaciones, expectativas poco realistas, objetivos poco claros, tiempos poco realistas.
+
+
+- **Metodologia en cascada : **aplicar la disdciplina de requisitos entera, es decir ,se requisitar, analizar y diseñar como procesos completos, después se programa, y después se entrega. En otras ingenierias, civil, industrial, es un proceso comun. En software solop encaja en sistemas concretos.
+
+
+- **Metodologias  Iterativas :** (modelo espira de Bohen) se planifica por fases, para esa entrega en concreto se requisita, se analiza y se diseña lo necesario, despues se programa y testea. Al final de cada iteracion (sprint), hay una entrega en el que se culminan los cambios de esta fase (sersion del proyecto).
+
+- **Metodolologia RUP (Rational Unifies Process):** marco de metodologias pesadas. Cada dos o tres semanas aplicacar una cascada de necesidades de diseño del software (caracter miterativo). en cada iteracion se requisita, analiza y diseña menos y en ultimas fases se programa mas  yt se entraga mas.
+```markdown
+    DO {
+        - Requisitar
+        - Analizar
+        - Diseñar
+        - Programas
+        - Testear
+        - Deplegar
+
+    } WHILE (isFinishedProyect)
+```
+
+Es habitual hacer diagramas de todo tipo : de casos de uso, diagramas de clases, diagramas de despliegue,. diagrama de componentes.
+Los costes del softawware se pactan al principio del proyecto.
+Dan una estimacion de tiempo y coste del proyecto (presupuesto cerrado).
+El desarrollo del software se empieza por aquellas partes que se consideran mas complicadas (lo mas arriesgado de construir).
+Analizan durante un 15% del tiempo de proyecto la propuesta de arquitectura (estudian como se va a programar absolutamente todo) 
+
+- **Metodolologia SCRUM + XP (Extrem Programming):**
+```markdown
+    DO {
+        - Requisitar + Analizar
+        - Testear + Diseñar
+        - Programas + Rediseñar
+        - Deplegar
+    } WHILE (isFinishedProyect)
+```
+
+*Requisitar + Analizar :* requiere que el cliente este presente.
+*Testear + Diseñar :* primero se escribe el codigo de prueba y luego se escribe el de produccion.
+*Programas + Rediseñar :* se programa con TDD, E2E desarrollo direigido por pruebas, y se recfatoriza a medida que se construye.
+*Deplegar :* CI, herramientas de integracion continua, sistematicamente se tiene funcionando toda la aplicacion en los servidores de preproduccion, pasando pruebas constantemente ante cada cambio dele rsistema durante las fases.
+
+Se hacen diagramas en caso extricto y suelen hacer ingenieria inversa para crear UML o graficas.
+Los costes del software se van definiendo a medida que avanzan las iteraciones.
+Al preveer un sprint (fin de la fase) se pacta el coste de esa fase.
+A priori no se ofrece esimaciones ni en tiempo ni en dinero.

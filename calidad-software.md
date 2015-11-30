@@ -83,7 +83,7 @@ Es habitual hacer diagramas de todo tipo : de casos de uso, diagramas de clases,
 Los costes del softawware se pactan al principio del proyecto.
 Dan una estimacion de tiempo y coste del proyecto (presupuesto cerrado).
 El desarrollo del software se empieza por aquellas partes que se consideran mas complicadas (lo mas arriesgado de construir).
-Analizan durante un 15% del tiempo de proyecto la propuesta de arquitectura (estudian como se va a programar absolutamente todo) 
+Analizan durante un 15% del tiempo de proyecto la propuesta de arquitectura (estudian como se va a programar absolutamente todo).
 
 - **Metodolologia SCRUM + XP (Extrem Programming):**
 ```markdown
@@ -100,7 +100,10 @@ Analizan durante un 15% del tiempo de proyecto la propuesta de arquitectura (est
 *Programas + Rediseñar :* se programa con TDD, E2E desarrollo direigido por pruebas, y se recfatoriza a medida que se construye.
 *Deplegar :* CI, herramientas de integracion continua, sistematicamente se tiene funcionando toda la aplicacion en los servidores de preproduccion, pasando pruebas constantemente ante cada cambio dele rsistema durante las fases.
 
-Se hacen diagramas en caso extricto y suelen hacer ingenieria inversa para crear UML o graficas.
+Se hacen diagramas en caso extrictos y se suelen hacer ingenieria inversa para crear UML o graficas.
 Los costes del software se van definiendo a medida que avanzan las iteraciones.
 Al preveer un sprint (fin de la fase) se pacta el coste de esa fase.
 A priori no se ofrece esimaciones ni en tiempo ni en dinero.
+
+Xp (Extream programing) : es el concepto de las metodologias tecnicas de ejecucion del proyecto anteriormente citadas, para llevar  acabo esto se se utiliza la guia de gestion de equipos del proyecto SCRUM (una metodologia agil).
+

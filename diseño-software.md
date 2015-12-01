@@ -43,3 +43,21 @@ La efiniencia es muy muy importante, pero por debajo de:
 - Si la documentacion no se consulta es sintoma de inutilidad.
 
 **No comentes codigo malo, reescribelo**
+
+**Formacion de nombres**
+- **Crear nombres descriptivos de la funcionalidad que no requieran comentarios.**
+- Legibles (en camelcase y que se puedan leer) y con la longitud que sea necesaria
+- Excepcion de los Acronimos internacional.
+- Excepcion de las constantes (como son nombres en mayusculas, se corrompe la lectura)
+- Todos los nombres empiezan en minusculas.
+- Solo se Capitaliza un nombre : camelcase, Clases, constantes.
+- No se cambian los nombres preestablecidos por la comunidad, por ejemplo i/j/k de las iteraciones.
+- Los metodos son verbos
+- Las clases, atributos y paquetes son sustantivos.
+- Evitar la anotacion Hungara : NO preceder los nombres con un acronimo de su tipo de dato o modificador (intValueComplet, arrPersonalProverbs).
+
+**descomposicion funcional** [doo/src/main/java/ticTacToe/v040]
+Se revelan cuando nombramos con verbos a las clases
+Tambien porque en cada una de ellas debemos instanciarlas con una copia de nuestra propiedad esatructura de datos clave (en el ejemplo 'Start, Put, Move' reciben el array de tokens).
+Suelen tener un unico metodo como miembro
+Estas clases pierden todo polimorfismo, herencia y reutilizacion
